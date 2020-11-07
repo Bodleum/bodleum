@@ -1,5 +1,34 @@
-
-p{
+h1{
+    text-align: center;
     font-family: Garamond;
-    font-size: 32px;
+    color: rgb(64,64,64);
+    font-size: 72px;
+}
+
+
+
+ul{
+    background-color:rgb(230,230,230);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    font-size: 30px;
+    font-family: Garamond;
+    /*Width needs to be 100 over the number of items in list*/
+    width:16.66666666666666%;
+}
+li a{
+    display: block;
+    color: rgb(64,64,64);
+    text-align:center;
+    padding:32px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:rgb(64,64,64);
+    color:white;
 }
