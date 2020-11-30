@@ -5,11 +5,11 @@
     <!--Link to style sheet-->
     <link rel="stylesheet" href="mainStyles.css" type="text/css">
     
-    <title>donkey</title>
+    <title>Advent Calendar</title>
     
 </head>
 
-<body>
+<body onload="updatePage()">
     <header>
         <div>
             <h1>Laing Industries</h1>
@@ -24,27 +24,16 @@
             <li><a href="#link">Page 5</a></li>
 
         </ul>
-        
-
     </header>
-    <div style="text-align: center;">
-        <h2>Find The Invisible Donkey</h2>
+    <h3>Each Day there will be a new bible reading. So come back each day till christmas for a new bible reading!</h3>
+    <h5><a href="https://www.esv.org/" target="_blank">Click Here for a Bible</a></h5>
+    <div class = info>
+        <p id="dailyReading"></p>
+        <p id="dailyNotes"></p>
     </div>
-    
-        <!-- importing audio and giving it an id -->
-        <audio id="donkeyShout">
-            <source src="sfx/DONKEY!.mp3" type="audio/mpeg">
-        </audio>
+    <!-- link to script -->
+    <script src="Scripts/adventCalendarScript.js">
+    </script>
+</body>
 
-        <img id="donkeyImg" src="images/donkey.jpg" onmouseover="found()">
-        
-        <!-- code to play audio -->
-        <script>
-            function found() {
-                //declaring variable using ID tag
-                let yell = document.getElementById("donkeyShout");
-                yell.play();
-            }    
-        </script>
-    </body>
 </html>
