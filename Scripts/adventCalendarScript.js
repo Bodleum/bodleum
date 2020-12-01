@@ -134,8 +134,8 @@ function setContent(){
             break;
         }
         default: {
-            reading = "Advent Calendar Begins Tomorrow"; 
-            notes = ""
+            reading = "There is an Error, Sorry for any Inconvenience"; 
+            notes = "We are working on the problem"
             break;
         }
     }
