@@ -3,8 +3,12 @@
 
 	$navItems = array(
 		array(
-			slug    => "index",
+			slug    => "/",
 			title   => "Home"
+		),
+		array(
+			slug	=> "test",
+			title	=> "Test"
 		),
 	);
 ?>

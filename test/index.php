@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!--
-	<meta http-equiv="refresh" content="0, url='Bodleum/index.html'" />
-	-->
-</head>
+<?php
+	$root = $_SERVER['DOCUMENT_ROOT'];
+	include($root."include/header.php");
+?>
 
-<body>
-	<p>Please follow <a href="Bodleum/index.html">this</a>link.</p>
-	<p>Hello</p>
-</body>
-</html>
+<h1>Test</h1>
+<p>This is a test page</p>
+
+<?php
+	$root = $_SERVER['DOCUMENT_ROOT'];
+	include($root."include/footer.php");
+?>

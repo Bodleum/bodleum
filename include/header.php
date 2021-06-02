@@ -1,5 +1,6 @@
 <?php
-	include('include/arrays.php')
+	$root = $_SERVER['DOCUMENT_ROOT'];
+	include($root."include/arrays.php");
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +19,10 @@
 		</div> <!-- banner -->
 
 		<div id="nav">
-			<?php include('include/nav.php'); ?>
+			<?php
+				$root = $_SERVER['DOCUMENT_ROOT'];
+				include($root."include/nav.php");
+			?>
 		</div> <!-- nav -->
 
 		<div class="content">
