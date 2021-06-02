@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-	<link href="mainStyles.css" rel="stylesheet" type="text/css">
+	<!-- <link href="mainStyles.css" rel="stylesheet" type="text/css"> -->
 </head>
 
 <body id="final example">
@@ -10,7 +10,7 @@
 	<div class="wrapper">
 
 		<div id="banner">
-			<a href="/" title="Return to Home">Home</a>
+			<a href="/" title="Return to Home">Return to Home</a>
 		</div> <!-- banner -->
 
 		<div id="nav">

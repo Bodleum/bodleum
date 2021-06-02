@@ -16,13 +16,9 @@
 		</div>
 		<!--Menu Bar completed but subject to change in design-->
 		<ul>
-			<li><a href="www.daniellaing.com/index">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="findDonkey">Donkey</a></li>
 			<li><a href="adventCalendar">Advent Calendar</a></li>
-			<li><a href="#link">Page 3</a></li>
-			<li><a href="#link">Page 4</a></li>
-			<li><a href="#link">Page 5</a></li>
-
 		</ul>
 	</header>
 	<h3>Each Day there will be a new bible reading. So come back each day till christmas for a new bible reading!</h3>

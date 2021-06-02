@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="index.php">Home</a></li>
-	<li><a href="findDonkey.html">Donkey</a></li>
-	<li><a href="adventCalendar.html">Calendar</a></li>
+	<li><a href="/">Home</a></li>
+	<li><a href="findDonkey">Donkey</a></li>
+	<li><a href="adventCalendar">Calendar</a></li>
 </ul>
