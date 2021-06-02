@@ -1,6 +1,6 @@
 <?php
 	$root = $_SERVER['DOCUMENT_ROOT'];
-	include($root."include/arrays.php");
+	include($root."/include/arrays.php");
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
 		<div id="nav">
 			<?php
 				$root = $_SERVER['DOCUMENT_ROOT'];
-				include($root."include/nav.php");
+				include($root."/include/nav.php");
 			?>
 		</div> <!-- nav -->
 

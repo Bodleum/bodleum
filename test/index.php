@@ -1,6 +1,6 @@
 <?php
 	$root = $_SERVER['DOCUMENT_ROOT'];
-	include($root."include/header.php");
+	include($root."/include/header.php");
 ?>
 
 <h1>Test</h1>
@@ -8,5 +8,5 @@
 
 <?php
 	$root = $_SERVER['DOCUMENT_ROOT'];
-	include($root."include/footer.php");
+	include($root."/include/footer.php");
 ?>
