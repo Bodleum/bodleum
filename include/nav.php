@@ -1,5 +1,8 @@
 <ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="findDonkey.php">Donkey</a></li>
-	<li><a href="adventCalendar">Calendar</a></li>
+	<?php
+		foreach ($navItems as $item)
+		{
+			echo "<li><a href=\"$item[slug]\">$item[title]</a></li>";
+		}
+	?>
 </ul>

@@ -1,3 +1,7 @@
+<?php
+	include('include/arrays.php')
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
